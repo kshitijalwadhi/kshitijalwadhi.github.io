@@ -1,0 +1,457 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lora&display=swap');
+
+
+
+
+/* ===================================================================*/
+/* Navbar starts */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    padding: 20px 0px;
+    background-color: #0f002f !important;
+    border-bottom: none !important;
+    transition: all 0.5s ease-in-out;
+    
+}
+
+.navbar ul li a {
+    color: white !important;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-family: 'Montserrat', sans-serif;
+    transition: all 0.3s ease-in;
+
+}
+
+.navbar ul li a:hover, .navbar ul li a:focus 
+{
+    color: deepskyblue !important;
+}
+
+.navbar-toggle {
+    border: 1px solid white !important;
+    transition: all 0.2s ease-in;
+}
+
+.navbar-toggle:hover {
+    background-color: turquoise !important;
+}
+
+.navbar-inverse .navbar-collapse {
+    border-color: transparent !important;
+
+}
+
+.navbar-custom .navbar-brand {
+    font-weight: 700;
+}
+
+.navbar-custom .navbar-brand:focus {
+    outline: 0;
+}
+
+.navbar-custom .navbar-brand .navbar-toggle {
+    padding: 4px 6px;
+    font-size: 16px;
+    color: #fff;
+}
+
+.navbar-custom .navbar-brand .navbar-toggle:focus,
+.navbar-custom .navbar-brand .navbar-toggle:active {
+    outline: 0;
+}
+
+.navbar-inverse {
+    background-color: transparent !important;
+}
+
+/* Navbar ends */
+
+/* ===================================================================*/
+
+/* Sticky Navigation */
+
+.secondary {
+    /*071115 */
+    background-color: #000000 !important;
+    opacity: 0.9;
+}
+
+/*slider starts */
+
+.slider {
+    width: 100%;
+    height: 700px;
+    background-image: url(../img/intro-bg.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.slider-overlay {
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.65);
+    position: relative;
+}
+
+.slider-content {
+    position: absolute;
+    top: 25%;
+    width: 100%;
+
+}
+
+.slider-content .brand-heading {
+    font-size: 80px;
+    font-weight: 1400;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.slider-content .intro-text {
+    font-size: 26px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.btn-circle {
+    width: 70px;
+    height: 70px;
+    margin-top: 15px;
+    padding: 7px 16px;
+    border: 2px solid #fff;
+    border-radius: 100% !important;
+    font-size: 40px;
+    color: #fff;
+    background: 0 0;
+    -webkit-transition: background .3s ease-in-out;
+    -moz-transition: background .3s ease-in-out;
+    transition: background .3s ease-in-out;
+}
+
+.btn-circle:hover,
+.btn-circle:focus {
+    outline: 0;
+    color: #fff;
+    background: rgba(255, 255, 255, .1);
+}
+
+.social-networks a.fa {
+    border: 1px solid white;
+    padding: 10px;
+    color: white;
+    width: 35px;
+    height: 35px;
+    border-radius: 35px;
+    margin-right: 2px;
+    transition: all 0.25s ease-in;
+}
+
+.social-networks a.fa:hover {
+    text-decoration: none;
+    background-color: teal;
+    color: white;
+    border: 1px solid teal;
+}
+
+/* Slider Ends */
+
+/* ===================================================================*/
+
+/* About section starts */
+
+.about {
+    width: 100%;
+    height: 700px;
+    background-color: black;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    
+}
+
+
+.about-overlay {
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.65);
+    position: relative;
+}
+
+.about-content {
+    position: absolute;
+    top: 10%;
+    width: 100%;
+
+}
+
+.about-content .abouthead
+{
+    font-size: 80px !important;
+    font-weight: 800;
+    letter-spacing: 1px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.about-content .abouttext
+{
+    font-size: 28px;
+    color: white;
+    font-family: 'Lora', serif;
+    line-height: 1.6;
+}
+
+.about-content .mypic 
+{
+    position: absolute;
+    top: 150px;
+    left: 50px;
+}
+
+.mypic 
+{
+    float: left;
+}
+
+.mypic img 
+{
+    display: block;
+}
+
+.abouttext
+{
+    margin-left: 320px;
+    margin-right: 35px;
+}
+
+.abouthead
+{
+    margin-left: 320px;
+}
+
+
+/* About page ends */
+
+.main-timeline7{overflow:hidden;position:relative}
+.main-timeline7 .timeline{width:50%;float:left;z-index:1;position:relative;}
+.main-timeline7 .timeline:after,.main-timeline7 .timeline:before{content:"";display:block;clear:both}
+.main-timeline7 .timeline:before{content:"";width:40px;height:90%;background:#727cb6;position:absolute;top:10%;right:-20px}
+.main-timeline7 .timeline:last-child:before{height:0}
+.main-timeline7 .timeline-icon{width:80px;height:80px;border-radius:50%;background:#727cb6;overflow:hidden;text-align:center;position:absolute;top:0;right:-40px;z-index:3}
+.main-timeline7 .timeline-icon:before{content:"";width:60px;height:60px;border-radius:50%;background:#fff;border:2px solid #727cb6;box-shadow:0 0 0 4px #a5afe4;margin:auto;position:absolute;top:0;left:0;bottom:0;right:0}
+.main-timeline7 .timeline-icon i{font-size:35px;color:#303a3b;line-height:80px;z-index:1;position:relative}
+.main-timeline7 .year{display:block;padding:0 60px 0 30px;font-style: italic; font-size:30px;color:#303a3b;text-align:right;border-bottom:2px solid #303a3b;z-index:2;position:relative}
+.main-timeline7 .year:before{content:"";display:block;width:30px;height:30px;border-radius:50%;background:#727cb6;border:5px solid #fff;box-shadow:0 0 0 4px #727cb6;margin:auto;position:absolute;bottom:-15px;left:4px}
+.main-timeline7 .year:after{content:"";border-left:10px solid #303a3b;border-top:10px solid transparent;border-bottom:10px solid transparent;position:absolute;bottom:-11px;left:50px}
+.main-timeline7 .timeline-content{padding:18px 60px 18px 40px;text-align:right;position:relative;z-index:1}
+.main-timeline7 .timeline-content:after,.main-timeline7 .timeline-content:before{content:"";width:80px;height:150px;border-radius:50%;background:#fff;position:absolute;top:-7%;right:15px;z-index:-1}
+.main-timeline7 .timeline-content:after{left:auto;right:-95px}
+.main-timeline7 .timeline:last-child .timeline-content:after,.main-timeline7 .timeline:last-child .timeline-content:before{width:0;height:0}
+.main-timeline7 .title{font-size:26px;font-weight:700;color:#727cb6;margin-top:0}
+.main-timeline7 .description{font-size:20px;color:#414346;line-height:25px}
+.main-timeline7 .timeline:nth-child(2){margin-top:140px}
+.main-timeline7 .timeline:nth-child(even){margin-bottom:80px}
+.main-timeline7 .timeline:nth-child(odd){margin:-140px 0 0}
+.main-timeline7 .timeline:first-child,.main-timeline7 .timeline:last-child:nth-child(even){margin:0!important}
+.main-timeline7 .timeline:nth-child(2n) .timeline-icon,.main-timeline7 .timeline:nth-child(2n):before{right:auto;left:-20px;background:#e77e21}
+.main-timeline7 .timeline:nth-child(2n) .timeline-icon{left:-40px}
+.main-timeline7 .timeline:nth-child(2n) .year{padding:0 30px 0 60px;text-align:left}
+.main-timeline7 .timeline:nth-child(2n) .year:before{left:auto;right:3px}
+.main-timeline7 .timeline:nth-child(2n) .year:after{border-left:none;border-right:10px solid #303a3b;right:50px}
+.main-timeline7 .timeline:nth-child(2n) .timeline-content{padding:18px 40px 18px 60px;text-align:left}
+.main-timeline7 .timeline:nth-child(2n) .timeline-content:before{left:-95px}
+.main-timeline7 .timeline:nth-child(2n) .timeline-content:after{left:15px}
+.main-timeline7 .timeline:nth-child(2n) .timeline-icon:before{border-color:#e77e21;box-shadow:0 0 0 4px #f1a563}
+.main-timeline7 .timeline:nth-child(2n) .year:before{background:#e77e21;box-shadow:0 0 0 4px #e77e21}
+.main-timeline7 .timeline:nth-child(2n) .title{color:#e77e21}
+.main-timeline7 .timeline:nth-child(3n) .timeline-icon,.main-timeline7 .timeline:nth-child(3n):before{background:#008b8b}
+.main-timeline7 .timeline:nth-child(3n) .timeline-icon:before{border-color:#008b8b;box-shadow:0 0 0 4px #50b5b4}
+.main-timeline7 .timeline:nth-child(3n) .year:before{background:#008b8b;box-shadow:0 0 0 4px #008b8b}
+.main-timeline7 .timeline:nth-child(3n) .title{color:#008b8b}
+.main-timeline7 .timeline:nth-child(4n) .timeline-icon,.main-timeline7 .timeline:nth-child(4n):before{background:#ed687c}
+.main-timeline7 .timeline:nth-child(4n) .timeline-icon:before{border-color:#ed687c;box-shadow:0 0 0 4px #f798a8}
+.main-timeline7 .timeline:nth-child(4n) .year:before{background:#ed687c;box-shadow:0 0 0 4px #ed687c}
+.main-timeline7 .timeline:nth-child(4n) .title{color:#ed687c}
+@media only screen and (max-width:990px){.main-timeline7 .timeline{width:100%}
+.main-timeline7 .timeline:nth-child(even),.main-timeline7 .timeline:nth-child(odd){margin:0}
+.main-timeline7 .timeline:before,.main-timeline7 .timeline:nth-child(2n):before{width:30px;height:100%;left:25px}
+.main-timeline7 .timeline-icon,.main-timeline7 .timeline:nth-child(2n) .timeline-icon{left:0}
+.main-timeline7 .timeline:nth-child(2n) .year,.main-timeline7 .year{text-align:left;padding:0 30px 0 100px}
+.main-timeline7 .timeline:nth-child(2n) .year:before,.main-timeline7 .year:before{left:auto;right:4px}
+.main-timeline7 .year:after{left:auto;right:50px;border-right:10px solid #303a3b;border-left:none}
+.main-timeline7 .timeline-content .description{color:#666}
+.main-timeline7 .timeline-content,.main-timeline7 .timeline:nth-child(2n) .timeline-content{text-align:left;padding:18px 40px 18px 100px}
+.main-timeline7 .timeline-content:after,.main-timeline7 .timeline-content:before{width:0;height:0}
+}
+
+
+.biohead
+{
+    padding-top: 4%;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 70px;
+    font-weight: 800;
+}
+
+.biotext .thickline
+{
+
+    height: 4px;
+    width: 340px;
+    text-align: center;
+    position: relative;
+    background: 
+    #1c0768;
+    margin: 0 auto;
+        margin-bottom: 0px;
+    margin-bottom: 30px;
+    border: 0;
+    
+}
+
+.experience
+{
+    
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50px;
+    font-weight: 800;
+}
+
+.education
+{
+    
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50px;
+    font-weight: 800;
+}
+
+
+.biotext .thinline
+{
+
+    height: 4px;
+    width: 170px;
+    text-align: center;
+    position: relative;
+    background: 
+    #7bc3d1;
+    margin: 0 auto;
+        margin-bottom: 0px;
+    margin-bottom: 30px;
+    border: 0;
+    
+}
+
+.biotext2 .thinline
+{
+
+    height: 4px;
+    width: 170px;
+    text-align: center;
+    position: relative;
+    background: 
+    #7bc3d1;
+    margin: 0 auto;
+        margin-bottom: 0px;
+    margin-bottom: 30px;
+    border: 0;
+    
+}
+
+
+/* =============================================== */
+
+/*contact starts */
+
+.contact {
+    width: 100%;
+    height: 700px;
+    background-image: url(../img/contact.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.contact-overlay {
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.65);
+    position: relative;
+}
+
+.contact-content {
+    position: absolute;
+    top: 25%;
+    width: 100%;
+
+}
+
+.contact-content .brand-heading {
+    font-size: 60px;
+    font-weight: 1400;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.contact-content .intro-text {
+    font-size: 20px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.btn-circle {
+    width: 70px;
+    height: 70px;
+    margin-top: 15px;
+    padding: 7px 16px;
+    border: 2px solid #fff;
+    border-radius: 100% !important;
+    font-size: 40px;
+    color: #fff;
+    background: 0 0;
+    -webkit-transition: background .3s ease-in-out;
+    -moz-transition: background .3s ease-in-out;
+    transition: background .3s ease-in-out;
+}
+
+.btn-circle:hover,
+.btn-circle:focus {
+    outline: 0;
+    color: #fff;
+    background: rgba(255, 255, 255, .1);
+}
+
+.csocial-networks .fa {
+    font-size: 40px;
+}
+
+.csocial-networks a.fa {
+    border: 1px solid white;
+    padding: 10px;
+    color: white;
+    width: 70px;
+    height: 70px;
+    border-radius: 70px;
+    margin-right: 2px;
+    transition: all 0.25s ease-in;
+}
+
+.csocial-networks a.fa:hover {
+    text-decoration: none;
+    background-color: teal;
+    color: white;
+    border: 1px solid teal;
+}
+
+/* contact Ends */
