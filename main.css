@@ -54,6 +54,11 @@ a:hover {
     color: #1565c0;
 }
 
+body .barca {
+    color: #990d0d;
+    font-style: italic;
+}
+
 /* Dark mode styles */
 body.dark-mode {
     background-color: #121212;
@@ -76,6 +81,10 @@ body.dark-mode .icons a:hover {
     color: #bb86fc;
 }
 
+body.dark-mode .barca {
+    color: #ffc107;
+    font-style: italic;
+}
 
 /* Dark mode toggle button styles */
 #dark-mode-toggle {
