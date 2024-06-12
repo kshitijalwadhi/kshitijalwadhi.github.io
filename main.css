@@ -97,7 +97,14 @@ body.dark-mode .barca {
     top: 20px;
     right: 20px;
     z-index: 999;
-    /* Ensure it stays on top */
+    transition: opacity 0.3s ease-in-out;
+}
+
+#dark-mode-toggle.hidden {
+    opacity: 0;
+    /* Hide the button by setting opacity to 0 */
+    pointer-events: none;
+    /* Disable pointer events when hidden */
 }
 
 #dark-mode-toggle:hover {

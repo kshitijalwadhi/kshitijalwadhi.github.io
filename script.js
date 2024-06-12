@@ -28,3 +28,13 @@ document.getElementById('dark-mode-toggle').addEventListener('click', function()
 });
 
 toggleDarkMode();
+
+const darkModeToggle = document.getElementById('dark-mode-toggle');
+
+window.addEventListener('scroll', function() {
+  if (window.pageYOffset > 0) {
+    darkModeToggle.classList.add('hidden');
+  } else {
+    darkModeToggle.classList.remove('hidden');
+  }
+});
