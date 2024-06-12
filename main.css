@@ -22,6 +22,25 @@ p {
     line-height: 1.8;
 }
 
+.name-container {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    flex-wrap: wrap;
+    margin-bottom: -30px;
+}
+
+.pronunciation {
+    font-family: 'Georgia', serif;
+    font-style: italic;
+    color: #555;
+    margin-top: -30px;
+    font-size: 0.9rem;
+    display: inline-block;
+    margin-left: auto;
+    align-self: flex-end;
+}
+
 
 a {
     text-decoration: none;
