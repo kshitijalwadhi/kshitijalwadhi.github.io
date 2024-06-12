@@ -41,6 +41,10 @@ a:hover {
     /* Center content horizontally */
 }
 
+.university {
+    font-family: 'Georgia', serif;
+}
+
 #content p {
     text-align: justify;
 }
