@@ -8,7 +8,7 @@ html {
 }
 
 body {
-    padding-top: 60px;
+    padding-top: 20px;
 }
 
 h1 {
@@ -39,6 +39,14 @@ a:hover {
     line-height: 1.6em;
     margin: auto;
     /* Center content horizontally */
+}
+
+#content p {
+    text-align: justify;
+}
+
+#content p.ending {
+    text-align: center;
 }
 
 .avatar {
@@ -135,5 +143,19 @@ body.dark-mode #dark-mode-toggle:hover {
 @media screen and (max-width: 600px) {
     #content {
         padding: 16px;
+    }
+}
+
+/* Justify text for larger screens */
+@media screen and (min-width: 768px) {
+    #content p {
+        text-align: justify;
+    }
+}
+
+/* Center text for smaller screens */
+@media screen and (max-width: 767px) {
+    #content p {
+        text-align: center;
     }
 }
