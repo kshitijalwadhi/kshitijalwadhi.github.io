@@ -45,6 +45,10 @@ a:hover {
     font-family: 'Georgia', serif;
 }
 
+.arrow {
+    margin: 0.2px;
+}
+
 #content p {
     text-align: justify;
 }
