@@ -24,12 +24,15 @@
 
     <!-- Include style sheets -->
     <link rel="stylesheet" href="main.css" />
+    <link rel="stylesheet" href="main2.css" />
 
     <!-- Fonts from Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;600&display=swap" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap"
+        rel="stylesheet">
     <link
         href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap"
         rel="stylesheet">
@@ -46,40 +49,143 @@
 </head>
 
 <body>
-    <section id="content">
-        <button id="dark-mode-toggle" title="Toggle Dark Mode"><i class="fas fa-moon"></i></button>
-        <!-- Avatar image -->
-        <img src="assets/image.jpg" alt="Kshitij Alwadhi" class="avatar" />
+    <button id="dark-mode-toggle" title="Toggle Dark Mode"><i class="fas fa-moon"></i></button>
 
-        <!-- Text -->
-        <div class="name-container">
-            <h1>Hi, I'm <strong>Kshitij Alwadhi!</strong></h1>
-            <p class="pronunciation">( shi-tij ahl-wah-dee )</p>
-        </div>
-        <p>
-            I am a <strong>Masters in CS</strong> candidate at <span class="university">Purdue University</span>
-            (graduating in May 2025).
-            I hold an undergraduate degree from <span class="university">IIT Delhi</span>.
-        </p>
-        <p>
-            I am currently working as an MLE intern at <a href="https://www.linkedin.com/company/deductive-ai/"
-                title="Deductive AI">Deductive AI</a>. In the past, I have worked at: <a href="https://devrev.ai/"
-                title="DevRev.ai">DevRev.ai</a>, <a href="https://qtim-lab.github.io/" title="QTIM Lab">QTIM Lab</a> and
-            <a href="https://www.linkedin.com/company/sharechat/?originalSubdomain=in" title="ShareChat">ShareChat</a>.
-            My expertise lies at the intersection of <b><em>ML and Systems</em></b>, and I enjoy the challenge of taking
-            ideas from <em>0 <span class="arrow">→</span>1</em>.
-        </p>
-        <p>
-            When I'm not geeking out over code, you'll find me hiking trails,
-            watching football <a href="https://youtu.be/h4m68r8kWAc?si=Aii_apC6Hv1dVl6U&t=209"
-                title="Mes que un club">(<span class="barca">Més que un club</span>)</a> or smashing it on the badminton
-            court. I am always excited to connect with like-minded individuals and explore new opportunities.
-        </p>
-        <p class="ending">
-            Please feel free to get in touch!
-        </p>
+    <div class="container u-w--100 light">
+        <article class="u-w--100 u-p--xxl u-pt--md u-flex u-flex--column u-border-bottom u-border--color">
+            <div class="u-w--90">
+                <div class="u-mb--lg"><img class="img img--lg img--circle" src="assets/image.jpg" alt="Kshitij Alwadhi">
+                </div>
+                <div class="">
+                    <div class="u-h1 u-fw--light u-line-height--1_1"><span>
+                            <h1><span class="">Hi, I'm Kshitij</span><br> a CS grad student at Purdue University with
+                                ML/SDE experience at multiple startups.</h1>
+                            </h1>
+                        </span></div>
+                    <p></p>
+                </div>
+            </div>
+        </article>
+    </div>
 
-        <!-- Icons -->
+    <div class="row u-flex u-flex--row">
+        <article
+            class="u-w--50 u-p--xxl u-flex u-flex--column u-flex-align--stretch u-flex--space_between u-border-right u-border-bottom u-border--color">
+            <div class="u-mb--xl">
+                <div class="u-mb--lg">
+                    <img src="assets/deductive_light.svg" alt="Kshitij Alwadhi" class="card-logo">
+                </div>
+                <div>
+                    <div class="u-h2 u-line-height--1_2"><span>
+                            <h2>Currently, I am a Software Engineering Intern at Deductive AI</h2>
+                        </span></div>
+                    <p class="u-p1 u-mt--md u-line-height--1_5 u-color--body">Lorem ipsum dolor, sit amet consectetur
+                        adipisicing elit. Eaque, rerum.</p>
+                </div>
+            </div>
+        </article>
+        <article
+            class="u-w--50 u-p--xxl u-flex u-flex--column u-flex-align--stretch u-flex--space_between u-border-bottom u-border--color">
+            <div class="u-mb--xl">
+                <div class="u-mb--lg">
+                    <img src="assets/devrev_logo_black_RGB.png" alt="Kshitij Alwadhi" class="card-logo">
+                </div>
+                <div>
+                    <div class="u-h2 u-line-height--1_2"><span>
+                            <h2>Previously, I was an MLE intern at DevRev.ai</h2>
+                        </span></div>
+                    <p class="u-p1 u-mt--md u-line-height--1_5 u-color--body">Lorem ipsum dolor sit, amet consectetur
+                        adipisicing elit. Ipsa dolore corporis aspernatur expedita nisi architecto voluptatum ea,
+                    </p>
+                </div>
+            </div>
+        </article>
+    </div>
+
+    <div class="row u-flex u-flex--row">
+        <article class="u-w--100 u-p--xxl u-border-bottom u-border--color">
+            <div class="u-flex u-flex--row_reverse u-flex--space_between u-flex-center--horizontal">
+                <div class="u-w--33 u-flex u-flex-center--vertical u-flex-center--horizontal">
+                    <i class="fa-solid fa-building-columns fa-3x"></i>
+                </div>
+                <div class="u-w--60">
+                    <div class="u-h2 u-line-height--1_25"><span>
+                            <h2>I spent the best years of my life at IIT Delhi
+                            </h2>
+                        </span></div>
+                    <p class="u-p1 u-mt--md u-line-height--1_5 u-color--body">Lorem ipsum dolor sit amet consectetur
+                        adipisicing elit. Quia fugiat consectetur facere at accusamus magni eligendi, officia beatae
+                        magnam itaque! Eveniet qui nostrum ab alias corporis fugiat recusandae odio omnis.</p>
+                </div>
+            </div>
+        </article>
+    </div>
+
+    <div class="row u-flex u-flex--row">
+        <article
+            class="u-w--50 u-p--xxl u-flex u-flex--column u-flex-align--stretch u-flex--space_between u-border-right u-border-bottom u-border--color">
+            <div>
+                <div class="u-mb--lg">
+                    <!-- Image -->
+                </div>
+                <div>
+                    <div class="u-h2 u-line-height--1_25"><span>
+                            <div>Outside of work, I'm a houseplant enthusiast and powerlifter</div>
+                        </span></div>
+                    <p class="u-p1 u-mt--md u-line-height--1_5 u-color--body">I hope to get a NASM training and
+                        nutrition certification when time allows (and learn how to keep a fiddle leaf alive)</p>
+                </div>
+            </div>
+        </article>
+        <article
+            class="u-w--50 u-p--xxl u-flex u-flex--column u-flex-align--stretch u-flex--space_between u-border-bottom u-border--color">
+            <div>
+                <div class="u-mb--lg">
+                    <!-- Image -->
+                </div>
+                <div>
+                    <div class="u-h2 u-line-height--1_25"><span>
+                            <h2>And an aspiring house DJ (80% serious)</h2>
+                        </span></div>
+                    <p class="u-p1 u-mt--md u-line-height--1_5 u-color--body">DJing became a pandemic hobby, and long,
+                        blended sets of house music relaxes my brain especially.</p>
+                </div>
+            </div>
+        </article>
+    </div>
+
+    <div class="row u-flex u-flex--row">
+        <article
+            class="u-w--66 u-p--xxl u-flex u-flex--column u-flex-align--stretch u-flex--space_between u-border--color">
+            <div>
+                <div class="u-mb--lg">
+                    <div class="img-container--transparent img-container--lg u-mb--md">
+                        <!-- Image here -->
+                    </div>
+                </div>
+                <div>
+                    <div class="u-h2 u-line-height--1_25"><span>
+                            <h3>Always down to collaborate when I have the time. Reach out for case studies. <br><br>All
+                                the best,<br>Daniel</h3>
+                        </span></div>
+                    <p class="u-p2 u-line-height--1_5 u-color--body"><br>This site is hand-crafted and coded. Feel free
+                        to <a class="u-text-link" href="https://www.linkedin.com/in/daniel-autry/" target="_blank"
+                            rel="noopener noreferrer">visit my LinkedIn.</a> <br>Copyright © Daniel Autry. Icons and
+                        illustrations courtesy of Noun Project and respective designers (paid for).</p>
+                </div>
+            </div>
+        </article>
+        <article class="u-w--34 u-p--xxl bg-portrait">
+            <div>
+                <div>
+                    <div><span></span></div>
+                    <p></p>
+                </div>
+            </div>
+        </article>
+    </div>
+
+    <section>
         <ul class="icons">
             <li>
                 <a href="assets/resume.pdf" title="Resume"><i class="fa-solid fa-file-pdf"></i></a>

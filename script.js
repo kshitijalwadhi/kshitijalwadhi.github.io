@@ -27,7 +27,7 @@ document.getElementById('dark-mode-toggle').addEventListener('click', function()
     }
 });
 
-toggleDarkMode();
+// toggleDarkMode();
 
 const darkModeToggle = document.getElementById('dark-mode-toggle');
 
