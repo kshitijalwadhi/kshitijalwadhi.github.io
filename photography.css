@@ -5,8 +5,9 @@ html, body {
 #content {
     max-width: none;
     width: 100%;
-    padding: 32px;
+    padding: 20px;
     margin: auto;
+    box-sizing: border-box;
 }
 
 .photo-gallery {
@@ -16,14 +17,17 @@ html, body {
     gap: 2rem;
     margin-top: 2rem;
     width: 100%;
+    padding: 0;
 }
 
 .photo-item {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 90%;
+    width: 100%;
     max-width: 900px;
+    padding: 0 10px;
+    box-sizing: border-box;
 }
 
 .photo-item img {
@@ -32,6 +36,7 @@ html, body {
     height: auto;
     max-height: none;
     object-fit: contain;
+    display: block;
 }
 
 .photo-description {
