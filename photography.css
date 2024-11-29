@@ -41,3 +41,35 @@ html, body {
     color: #666;
     max-width: 800px;
 }
+
+#back-button {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    z-index: 1000;
+    transition: background-color 0.3s ease;
+}
+
+#back-button:hover {
+    background: #555;
+}
+
+[data-theme="dark"] #back-button {
+    background: #666;
+    color: white;
+}
+
+[data-theme="dark"] #back-button:hover {
+    background: #888;
+}
