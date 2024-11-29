@@ -1,0 +1,43 @@
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+#content {
+    max-width: none;
+    width: 100%;
+    padding: 32px;
+    margin: auto;
+}
+
+.photo-gallery {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 2rem;
+    width: 100%;
+}
+
+.photo-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    max-width: 900px;
+}
+
+.photo-item img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    max-height: none;
+    object-fit: contain;
+}
+
+.photo-description {
+    text-align: center;
+    margin-top: 1rem;
+    font-style: italic;
+    color: #666;
+    max-width: 800px;
+}
